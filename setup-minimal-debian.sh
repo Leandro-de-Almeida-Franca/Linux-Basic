@@ -27,7 +27,7 @@
 #	# git clone https://github.com/Leandro-de-Almeida-Franca/Linux-Basic.git 	 # 
 #   Execute como root:								 							 #
 #     # bash setup-minimal-debian.sh						 					 #
-#										 										 #
+#			  						 										 #
 #--------------------------------------------------------------------------------#
 
 
@@ -137,7 +137,7 @@ apt remove xterm -y
 apt autoremove -y
 sleep 3
 
-#Adicionando o usuario ao sudo
+#Adicionando o usuario ao sudoers
 info "Adicionando usuário ao sudoers..."
 usermod -aG sudo "$usuario"
 sleep 2

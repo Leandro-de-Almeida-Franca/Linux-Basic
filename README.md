@@ -196,4 +196,3 @@ Após isso, você será levado ao terminal de login. Faça login com o usuário 
 
 Agora com seu sistema mínimo pronto, entre como root usando "su -", faça o download do git usando "apt install git".
 Após isso faça o clone do repositorio e rode o script.
-
